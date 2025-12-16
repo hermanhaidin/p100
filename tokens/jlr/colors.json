@@ -1,1 +1,1368 @@
-
+{
+    "color": {
+        "content": {
+            "primary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "secondary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    }
+                }
+            },
+            "tertiary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#AEB0B3"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A4F54"
+                    }
+                }
+            }
+        },
+        "onContent": {
+            "onPrimary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    }
+                }
+            },
+            "onSecondary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "onTertiary": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            }
+        },
+        "contentExtended": {
+            "softBrand": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#E9ECEC"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                }
+            },
+            "brand": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "strongBrand": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "softInfo": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#EEF6FF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                }
+            },
+            "info": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                }
+            },
+            "strongInfo": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#1D5490"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    }
+                }
+            },
+            "softAccent": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#EEF6FF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0D2642"
+                    }
+                }
+            },
+            "accent": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                }
+            },
+            "strongAccent": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#1D5490"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#88B8F6"
+                    }
+                }
+            },
+            "softSuccess": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#E9F7EF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#022A14"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#022A14"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#022A14"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#022A14"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#022A14"
+                    }
+                }
+            },
+            "success": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0F8A47"
+                    }
+                }
+            },
+            "strongSuccess": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#015A2B"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#2FAB64"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#2FAB64"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#2FAB64"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#2FAB64"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#2FAB64"
+                    }
+                }
+            },
+            "softWarning": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFF4E5"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#402200"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#402200"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#402200"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#402200"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#402200"
+                    }
+                }
+            },
+            "warning": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FF7F00"
+                    }
+                }
+            },
+            "strongWarning": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#995000"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFA347"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFA347"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFA347"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFA347"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFA347"
+                    }
+                }
+            },
+            "softError": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFF1F2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#3A0003"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#3A0003"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#3A0003"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#3A0003"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#3A0003"
+                    }
+                }
+            },
+            "error": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#D2000A"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#F94D55"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#F94D55"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#F94D55"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#F94D55"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#F94D55"
+                    }
+                }
+            },
+            "strongError": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#A80008"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FF8A8E"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FF8A8E"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FF8A8E"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FF8A8E"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FF8A8E"
+                    }
+                }
+            }
+        },
+        "onContentExtended": {
+            "onBrand": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    }
+                }
+            },
+            "onInfo": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "onAccent": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "onSuccess": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "onWarning": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            },
+            "onError": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    }
+                }
+            }
+        },
+        "surface": {
+            "canvas": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#0C121C"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#171D26"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#171D26"
+                    }
+                }
+            },
+            "secondaryCanvas": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#F8F9F9"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#171D26"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#171D26"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#171D26"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#1E232D"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#1E232D"
+                    }
+                }
+            },
+            "container": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#FFFFFF"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#1E232D"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#1E232D"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#1E232D"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#242831"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#242831"
+                    }
+                }
+            },
+            "secondaryContainer": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#E9ECEC"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#242831"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#242831"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#242831"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#292E37"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#292E37"
+                    }
+                }
+            }
+        },
+        "glass": {
+            "clear": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.01)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.01)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.01)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.01)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.01)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.01)"
+                    }
+                }
+            },
+            "ultraThin": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.13)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.13)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.13)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.13)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.13)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.13)"
+                    }
+                }
+            },
+            "thin": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.34)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    }
+                }
+            },
+            "regular": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.55)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.55)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.55)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.55)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.55)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.55)"
+                    }
+                }
+            },
+            "thick": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.78)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.78)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.78)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.78)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.78)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.78)"
+                    }
+                }
+            }
+        },
+        "overlay": {
+            "hover": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.05)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.05)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.05)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.05)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.05)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.05)"
+                    }
+                }
+            },
+            "pressed": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.08)"
+                    }
+                }
+            },
+            "disabled": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(255, 255, 255, 0.34)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "rgba(0, 0, 0, 0.34)"
+                    }
+                }
+            },
+            "focus": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#4A90E2"
+                    }
+                }
+            },
+            "shimmer": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#E9ECEC"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#292E37"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#292E37"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#292E37"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#323843"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#323843"
+                    }
+                }
+            },
+            "secondaryShimmer": {
+                "light": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#DBDDDE"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#323843"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#323843"
+                    }
+                },
+                "dark": {
+                    "prime": {
+                        "$type": "color",
+                        "$value": "#323843"
+                    },
+                    "option": {
+                        "$type": "color",
+                        "$value": "#3A4048"
+                    },
+                    "accent": {
+                        "$type": "color",
+                        "$value": "#3A4048"
+                    }
+                }
+            }
+        }
+    }
+}
