@@ -1,1 +1,42 @@
-
+{
+    "color": {
+        "utility": {
+            "black": {
+                "$type": "color",
+                "$value": "#000000"
+            },
+            "white": {
+                "$type": "color",
+                "$value": "#FFFFFF"
+            }
+        },
+        "sixt": {
+            "anthracite": {
+                "$type": "color",
+                "$value": "#1A1A1A"
+            },
+            "orange": {
+                "$type": "color",
+                "$value": "#FF5000"
+            }
+        },
+        "loyalty": {
+            "silver": {
+                "$type": "color",
+                "$value": "#D9D9D9"
+            },
+            "gold": {
+                "$type": "color",
+                "$value": "#C88C18"
+            },
+            "platinum": {
+                "$type": "color",
+                "$value": "#9288C9"
+            },
+            "diamond": {
+                "$type": "color",
+                "$value": "#559EC8"
+            }
+        }
+    }
+}
