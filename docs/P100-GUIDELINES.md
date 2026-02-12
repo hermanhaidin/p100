@@ -291,9 +291,13 @@ Three themes control color usage: `prime`, `option`, and `accent`. Each is disti
 - fontSize:
     - Web: use `rem` value (1rem = 16px base)
     - iOS/Android: use px value as `pt`/`sp`
+- lineHeight:
+  - Values 1.0, 1.2, 1.5 are ratios (multiply by fontSize to get px)
+  - Example: `display/large/heavy` with fontSize 60px and lineHeight 1.0 → 60px
 - letterSpacing:
   - Web: use `em` value (scales with font size)
   - iOS/Android: use px value as `pt`/`sp` (based on mobile font size)
+  - DTCG: use `px` value (e.g. `"$value": 1.5` from "1.5px (0.025em)")
 - textTransform:
     - Check the Text Transform column for each token
     - Apply `text-transform: uppercase` in CSS (or equivalent in iOS/Android) where specified
@@ -386,8 +390,8 @@ Three text roles: `display`, `title`, and `copy`.
 
 > Font sizes scale with viewport width. iOS and Android use mobile sizes only.
 
-| Token | Mobile (0...649px) | Tablet (650...1199px) | Desktop (1200...2560px) |
-|-------|--------------------|-----------------------|-------------------------|
+| Token | Mobile (320...649px) | Tablet (650...1199px) | Desktop (1200...2560px) |
+|-------|----------------------|-----------------------|-------------------------|
 | `display/large/*` | 60px (3.75rem) | 68px (4.25rem) | 72px (4.5rem) |
 | `display/medium/*` | 48px (3rem) | 56px (3.5rem) | 60px (3.75rem) |
 | `display/small/*` | 40px (2.5rem) | 46px (2.875rem) | 50px (3.125rem) |
@@ -410,19 +414,22 @@ Three text roles: `display`, `title`, and `copy`.
 - fontWeight:
     - `Cn Blk (900)` → `Bold (700)` for heavy variants
     - Regular stays `Regular (400)`
+- lineHeight:
+    - Same ratio as Mobile/Tablet/Desktop (1.0, 1.2, 1.5)
+    - Apply to Email font sizes
 
-| Token | Font Size |
-|-------|-----------|
-| `display/large/*` | 36px (2.25rem) |
-| `display/medium/*` | 36px (2.25rem) |
-| `display/small/*` | 36px (2.25rem) |
-| `title/large/*` | 36px (2.25rem) |
-| `title/medium/*` | 28px (1.75rem) |
-| `title/small/*` | 20px (1.25rem) |
-| `copy/xLarge/*` | 22px (1.375rem) |
-| `copy/large/*` | 18px (1.125rem) |
-| `copy/medium/*` | 16px (1rem) |
-| `copy/small/*` | 14px (0.875rem) |
+| Token | Family | Font Size | Letter Spacing |
+|-------|--------|-----------|----------------|
+| `display/large/*` | Helvetica | 36px (2.25rem) | -0.5px (-0.014em) |
+| `display/medium/*` | Helvetica | 36px (2.25rem) | -0.5px (-0.014em) |
+| `display/small/*` | Helvetica | 36px (2.25rem) | -0.5px (-0.014em) |
+| `title/large/*` | Helvetica | 36px (2.25rem) | -0.5px (-0.014em) |
+| `title/medium/*` | Helvetica | 28px (1.75rem) | -0.5px (-0.018em) |
+| `title/small/*` | Helvetica | 20px (1.25rem) | 0.12px (0.006em) |
+| `copy/xLarge/*` | Helvetica | 22px (1.375rem) | 0.12px (0.0055em) |
+| `copy/large/*` | Helvetica | 18px (1.125rem) | 0.12px (0.0067em) |
+| `copy/medium/*` | Helvetica | 16px (1rem) | 0.12px (0.0075em) |
+| `copy/small/*` | Helvetica | 14px (0.875rem) | 0.12px (0.0086em) |
 
 
 ## Size tokens
