@@ -288,16 +288,16 @@ Three themes control color usage: `prime`, `option`, and `accent`. Each is disti
 - Type: `textStyle` (composite)
 - Figma representation: Text styles
 - Properties: fontFamily, fontSize, fontWeight, lineHeight, letterSpacing, textTransform
-- textTransform:
-    - Check the Text Transform column for each token
-    - Apply `text-transform: uppercase` in CSS (or equivalent in iOS/Android) where specified
-    — This property cannot be tokenized in Figma
 - fontSize:
     - Web: use `rem` value (1rem = 16px base)
     - iOS/Android: use px value as `pt`/`sp`
 - letterSpacing:
   - Web: use `em` value (scales with font size)
   - iOS/Android: use px value as `pt`/`sp` (based on mobile font size)
+- textTransform:
+    - Check the Text Transform column for each token
+    - Apply `text-transform: uppercase` in CSS (or equivalent in iOS/Android) where specified
+    — This property cannot be tokenized in Figma
 
 ---
 
@@ -313,18 +313,18 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Family | Weight | Line Height | Letter Spacing | Text Transform | Use |
 |-------|--------|--------|-------------|----------------|----------------|-----|
-| `display/large/heavy` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.025em) | None | h1 hero headlines |
-| `display/large/heavyCaps` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.025em) | Uppercase | h1 hero headlines (default) |
-| `display/large/regular` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.025em) | None | h1 hero headlines (lighter weight) |
-| `display/large/regularCaps` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.025em) | Uppercase | h1 hero headlines (lighter weight) |
-| `display/medium/heavy` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.0313em) | None | h2 section headlines |
-| `display/medium/heavyCaps` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.0313em) | Uppercase | h2 section headlines (default) |
-| `display/medium/regular` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.0313em) | None | h2 section headlines (lighter weight) |
-| `display/medium/regularCaps` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.0313em) | Uppercase | h2 section headlines (lighter weight) |
-| `display/small/heavy` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.0375em) | None | h3 subsection headlines |
-| `display/small/heavyCaps` | Helvetica Now Display | Cn Blk | 1.0 | 1.5px (0.0375em) | Uppercase | h3 subsection headlines (default) |
-| `display/small/regular` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.0375em) | None | h3 subsection headlines; large social proof quotes |
-| `display/small/regularCaps` | Helvetica Now Text | Regular | 1.0 | 1.5px (0.0375em) | Uppercase | h3 subsection headlines (lighter weight) |
+| `display/large/heavy` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.025em) | None | h1 hero headlines |
+| `display/large/heavyCaps` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.025em) | Uppercase | h1 hero headlines (default) |
+| `display/large/regular` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.025em) | None | h1 hero headlines (lighter weight) |
+| `display/large/regularCaps` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.025em) | Uppercase | h1 hero headlines (lighter weight) |
+| `display/medium/heavy` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.0313em) | None | h2 section headlines |
+| `display/medium/heavyCaps` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.0313em) | Uppercase | h2 section headlines (default) |
+| `display/medium/regular` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.0313em) | None | h2 section headlines (lighter weight) |
+| `display/medium/regularCaps` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.0313em) | Uppercase | h2 section headlines (lighter weight) |
+| `display/small/heavy` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.0375em) | None | h3 subsection headlines |
+| `display/small/heavyCaps` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1.5px (0.0375em) | Uppercase | h3 subsection headlines (default) |
+| `display/small/regular` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.0375em) | None | h3 subsection headlines; large social proof quotes |
+| `display/small/regularCaps` | Helvetica Now Text | Regular (400) | 1.0 | 1.5px (0.0375em) | Uppercase | h3 subsection headlines (lighter weight) |
 
 ---
 
@@ -334,18 +334,18 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Family | Weight | Line Height | Letter Spacing | Text Transform | Use |
 |-------|--------|--------|-------------|----------------|----------------|-----|
-| `title/large/heavy` | Helvetica Now Display | Cn Blk | 1.0 | 1px (0.03em) | None | Mobile app screen titles; campaign headlines |
-| `title/large/heavyCaps` | Helvetica Now Display | Cn Blk | 1.0 | 1px (0.03em) | Uppercase | Mobile app screen titles; campaign headlines (default) |
-| `title/large/regular` | Helvetica Now Text | Regular | 1.0 | 1px (0.03em) | None | Large titles (lighter weight) |
-| `title/large/regularCaps` | Helvetica Now Text | Regular | 1.0 | 1px (0.03em) | Uppercase | Large titles (lighter weight) |
-| `title/medium/heavy` | Helvetica Now Display | Cn Blk | 1.0 | 1px (0.036em) | None | h3 landing page headlines |
-| `title/medium/heavyCaps` | Helvetica Now Display | Cn Blk | 1.0 | 1px (0.036em) | Uppercase | h3 landing page headlines (default) |
-| `title/medium/regular` | Helvetica Now Text | Regular | 1.0 | 1px (0.036em) | None | h3 landing page headlines (lighter weight) |
-| `title/medium/regularCaps` | Helvetica Now Text | Regular | 1.0 | 1px (0.036em) | Uppercase | h3 landing page headlines (lighter weight) |
-| `title/small/heavy` | Helvetica Now Text | Bold | 1.2 | 0.25px (0.0125em) | None | USP text; section headlines; date picker labels; large price integers |
-| `title/small/heavyCaps` | Helvetica Now Text | Bold | 1.2 | 0.25px (0.0125em) | Uppercase | Car category titles |
-| `title/small/regular` | Helvetica Now Text | Regular | 1.2 | 0.25px (0.0125em) | None | USP text; large price integers (lighter weight) |
-| `title/small/regularCaps` | Helvetica Now Text | Regular | 1.2 | 0.25px (0.0125em) | Uppercase | Car category titles (lighter weight) |
+| `title/large/heavy` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1px (0.03em) | None | Mobile app screen titles; campaign headlines |
+| `title/large/heavyCaps` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1px (0.03em) | Uppercase | Mobile app screen titles; campaign headlines (default) |
+| `title/large/regular` | Helvetica Now Text | Regular (400) | 1.0 | 1px (0.03em) | None | Large titles (lighter weight) |
+| `title/large/regularCaps` | Helvetica Now Text | Regular (400) | 1.0 | 1px (0.03em) | Uppercase | Large titles (lighter weight) |
+| `title/medium/heavy` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1px (0.036em) | None | h3 landing page headlines |
+| `title/medium/heavyCaps` | Helvetica Now Display | Cn Blk (900) | 1.0 | 1px (0.036em) | Uppercase | h3 landing page headlines (default) |
+| `title/medium/regular` | Helvetica Now Text | Regular (400) | 1.0 | 1px (0.036em) | None | h3 landing page headlines (lighter weight) |
+| `title/medium/regularCaps` | Helvetica Now Text | Regular (400) | 1.0 | 1px (0.036em) | Uppercase | h3 landing page headlines (lighter weight) |
+| `title/small/heavy` | Helvetica Now Text | Bold (700) | 1.2 | 0.25px (0.0125em) | None | USP text; section headlines; date picker labels; large price integers |
+| `title/small/heavyCaps` | Helvetica Now Text | Bold (700) | 1.2 | 0.25px (0.0125em) | Uppercase | Car category titles |
+| `title/small/regular` | Helvetica Now Text | Regular (400) | 1.2 | 0.25px (0.0125em) | None | USP text; large price integers (lighter weight) |
+| `title/small/regularCaps` | Helvetica Now Text | Regular (400) | 1.2 | 0.25px (0.0125em) | Uppercase | Car category titles (lighter weight) |
 
 ---
 
@@ -355,30 +355,30 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Family | Weight | Line Height | Letter Spacing | Text Transform | Use |
 |-------|--------|--------|-------------|----------------|----------------|-----|
-| `copy/xLarge/heavy` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0055em) | None | Social proof quotes |
-| `copy/xLarge/heavyCaps` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0055em) | Uppercase | Social proof quotes |
-| `copy/xLarge/heavyTight` | Helvetica Now Text | Bold | 1.2 | 0.12px (0.0055em) | None | Social proof quotes (compact) |
-| `copy/xLarge/regular` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0055em) | None | Social proof quotes |
-| `copy/xLarge/regularCaps` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0055em) | Uppercase | Social proof quotes |
-| `copy/xLarge/regularTight` | Helvetica Now Text | Regular | 1.2 | 0.12px (0.0055em) | None | Social proof quotes (compact, default) |
-| `copy/large/heavy` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0075em) | None | Body text in help/SEO pages |
-| `copy/large/heavyCaps` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0075em) | Uppercase | Button labels; banner titles |
-| `copy/large/heavyTight` | Helvetica Now Text | Bold | 1.2 | 0.12px (0.0075em) | None | Button labels; banner titles; section headlines; map markers; picker selections |
-| `copy/large/regular` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0075em) | None | Text field input; body text in help/SEO pages |
-| `copy/large/regularCaps` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0075em) | Uppercase | Body text (uppercase variant) |
-| `copy/large/regularTight` | Helvetica Now Text | Regular | 1.2 | 0.12px (0.0075em) | None | Accordion labels; search results; picker options |
-| `copy/medium/heavy` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0086em) | None | Snackbars; tooltips; checklists; checkbox/radio labels; medium prices |
-| `copy/medium/heavyCaps` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.0086em) | Uppercase | Medium labels |
-| `copy/medium/heavyTight` | Helvetica Now Text | Bold | 1.2 | 0.12px (0.0086em) | None | Small button labels; selected chip labels; date picker days |
-| `copy/medium/regular` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0086em) | None | Snackbars; tooltips; checklists; checkbox/radio labels; medium prices |
-| `copy/medium/regularCaps` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.0086em) | Uppercase | Medium labels |
-| `copy/medium/regularTight` | Helvetica Now Text | Regular | 1.2 | 0.12px (0.0086em) | None | Unselected chip labels |
-| `copy/small/heavy` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.01em) | None | Small price integers |
-| `copy/small/heavyCaps` | Helvetica Now Text | Bold | 1.5 | 0.12px (0.01em) | Uppercase | Marketing badge labels |
-| `copy/small/heavyTight` | Helvetica Now Text | Bold | 1.2 | 0.12px (0.01em) | None | Badge labels; text field labels |
-| `copy/small/regular` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.01em) | None | Sublabels; hints; error messages; small checklists; legal text |
-| `copy/small/regularCaps` | Helvetica Now Text | Regular | 1.5 | 0.12px (0.01em) | Uppercase | Legal text headings |
-| `copy/small/regularTight` | Helvetica Now Text | Regular | 1.2 | 0.12px (0.01em) | None | Bottom navigation labels |
+| `copy/xLarge/heavy` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0055em) | None | Social proof quotes |
+| `copy/xLarge/heavyCaps` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0055em) | Uppercase | Social proof quotes |
+| `copy/xLarge/heavyTight` | Helvetica Now Text | Bold (700) | 1.2 | 0.12px (0.0055em) | None | Social proof quotes (compact) |
+| `copy/xLarge/regular` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0055em) | None | Social proof quotes |
+| `copy/xLarge/regularCaps` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0055em) | Uppercase | Social proof quotes |
+| `copy/xLarge/regularTight` | Helvetica Now Text | Regular (400) | 1.2 | 0.12px (0.0055em) | None | Social proof quotes (compact, default) |
+| `copy/large/heavy` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0075em) | None | Body text in help/SEO pages |
+| `copy/large/heavyCaps` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0075em) | Uppercase | Button labels; banner titles |
+| `copy/large/heavyTight` | Helvetica Now Text | Bold (700) | 1.2 | 0.12px (0.0075em) | None | Button labels; banner titles; section headlines; map markers; picker selections |
+| `copy/large/regular` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0075em) | None | Text field input; body text in help/SEO pages |
+| `copy/large/regularCaps` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0075em) | Uppercase | Body text (uppercase variant) |
+| `copy/large/regularTight` | Helvetica Now Text | Regular (400) | 1.2 | 0.12px (0.0075em) | None | Accordion labels; search results; picker options |
+| `copy/medium/heavy` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0086em) | None | Snackbars; tooltips; checklists; checkbox/radio labels; medium prices |
+| `copy/medium/heavyCaps` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.0086em) | Uppercase | Medium labels |
+| `copy/medium/heavyTight` | Helvetica Now Text | Bold (700) | 1.2 | 0.12px (0.0086em) | None | Small button labels; selected chip labels; date picker days |
+| `copy/medium/regular` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0086em) | None | Snackbars; tooltips; checklists; checkbox/radio labels; medium prices |
+| `copy/medium/regularCaps` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.0086em) | Uppercase | Medium labels |
+| `copy/medium/regularTight` | Helvetica Now Text | Regular (400) | 1.2 | 0.12px (0.0086em) | None | Unselected chip labels |
+| `copy/small/heavy` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.01em) | None | Small price integers |
+| `copy/small/heavyCaps` | Helvetica Now Text | Bold (700) | 1.5 | 0.12px (0.01em) | Uppercase | Marketing badge labels |
+| `copy/small/heavyTight` | Helvetica Now Text | Bold (700) | 1.2 | 0.12px (0.01em) | None | Badge labels; text field labels |
+| `copy/small/regular` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.01em) | None | Sublabels; hints; error messages; small checklists; legal text |
+| `copy/small/regularCaps` | Helvetica Now Text | Regular (400) | 1.5 | 0.12px (0.01em) | Uppercase | Legal text headings |
+| `copy/small/regularTight` | Helvetica Now Text | Regular (400) | 1.2 | 0.12px (0.01em) | None | Bottom navigation labels |
 
 ---
 
@@ -386,7 +386,7 @@ Three text roles: `display`, `title`, and `copy`.
 
 > Font sizes scale with viewport width. iOS and Android use mobile sizes only.
 
-| Token | Mobile (0...599px) | Tablet (600...1199px) | Desktop (1200...2560px) |
+| Token | Mobile (0...649px) | Tablet (650...1199px) | Desktop (1200...2560px) |
 |-------|--------------------|-----------------------|-------------------------|
 | `display/large/*` | 60px (3.75rem) | 68px (4.25rem) | 72px (4.5rem) |
 | `display/medium/*` | 48px (3rem) | 56px (3.5rem) | 60px (3.75rem) |
@@ -398,6 +398,31 @@ Three text roles: `display`, `title`, and `copy`.
 | `copy/large/*` | 16px (1rem) | 16px (1rem) | 16px (1rem) |
 | `copy/medium/*` | 14px (0.875rem) | 14px (0.875rem) | 14px (0.875rem) |
 | `copy/small/*` | 12px (0.75rem) | 12px (0.75rem) | 12px (0.75rem) |
+
+---
+
+### Email
+
+> Email mode uses fixed sizes (no responsive breakpoints) and differs from the Mobile/Tablet/Desktop table above.
+
+- fontFamily:
+    - Email mode uses Helvetica (system font) instead of Helvetica Now Display / Helvetica Now Text
+- fontWeight:
+    - `Cn Blk (900)` → `Bold (700)` for heavy variants
+    - Regular stays `Regular (400)`
+
+| Token | Font Size |
+|-------|-----------|
+| `display/large/*` | 36px (2.25rem) |
+| `display/medium/*` | 36px (2.25rem) |
+| `display/small/*` | 36px (2.25rem) |
+| `title/large/*` | 36px (2.25rem) |
+| `title/medium/*` | 28px (1.75rem) |
+| `title/small/*` | 20px (1.25rem) |
+| `copy/xLarge/*` | 22px (1.375rem) |
+| `copy/large/*` | 18px (1.125rem) |
+| `copy/medium/*` | 16px (1rem) |
+| `copy/small/*` | 14px (0.875rem) |
 
 
 ## Size tokens
