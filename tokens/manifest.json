@@ -1,0 +1,12 @@
+{
+    "canonical": "sixt",
+    "brands": ["jaguar-landrover"],
+    "files": {
+      "colors": "colors.resolver.json",
+      "typography": "typography.resolver.json",
+      "size": "size.json",
+      "breakpoints": "breakpoints.json",
+      "gradients": "gradients.json",
+      "shadows": "shadows.json"
+    }
+  }

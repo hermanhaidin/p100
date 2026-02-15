@@ -247,7 +247,7 @@ Three themes control color usage: `prime`, `option`, and `accent`. Each is disti
 
 ### Metadata
 
-- Type: `radialGradient`
+- Type: `gradient`
 - Figma representation: Color styles
 - Format: two-stop radial gradients
 - Size: 100% × 100% of container
@@ -297,7 +297,6 @@ Three themes control color usage: `prime`, `option`, and `accent`. Each is disti
 - letterSpacing:
   - Web: use `em` value (scales with font size)
   - iOS/Android: use px value as `pt`/`sp` (based on mobile font size)
-  - DTCG: use `px` value (e.g. `"$value": 1.5` from "1.5px (0.025em)")
 - textTransform:
     - Check the Text Transform column for each token
     - Apply `text-transform: uppercase` in CSS (or equivalent in iOS/Android) where specified
@@ -440,7 +439,7 @@ Three text roles: `display`, `title`, and `copy`.
 - Figma representation: Variables
 - Web: use `rem` value for spacing/radius/stroke (1rem = 16px base)
 - iOS/Android: use px value as `pt`/`sp` for spacing/radius/stroke
-- Blur: uses `px` on all platforms; Figma value (30px) differs from web value (15px) due to different blur algorithms
+- Blur: uses `px` (30px for `blur/glass`)
 - Cross-platform rendering: same numeric values used across platforms (16px → 16pt/16dp), but physical sizes may vary slightly due to platform rendering differences; visual appearance is prioritized over mathematical precision
 
 ---
@@ -451,20 +450,20 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Value | Use |
 |-------|-------|-----|
-| `size/spacing/5xs` | 2px (0.125rem) | Vertical gap between label and sublabel in accordions, list items, checkboxes, radio buttons |
-| `size/spacing/4xs` | 4px (0.25rem) | Vertical gap between title and description in banners, alert dialogs; vertical gap between text field label, input, and hint |
-| `size/spacing/3xs` | 8px (0.5rem) | Horizontal gap between icon and label in buttons, chips; horizontal gap between stacked badges or filter chips |
-| `size/spacing/2xs` | 12px (0.75rem) | Horizontal padding in text fields; vertical padding in list items with large text; vertical gap between stacked large buttons |
-| `size/spacing/xs` | 16px (1rem) | Padding in banners, snackbars; horizontal padding in small pill chips; horizontal gap between control and label in checkboxes, radio buttons; vertical gap between form text fields |
-| `size/spacing/sm` | 20px (1.25rem) | Intermediate between `xs` and `md` |
-| `size/spacing/md` | 24px (1.5rem) | Padding in alert dialogs; horizontal gap between offer tiles in list column layout (screens >1199px) |
-| `size/spacing/lg` | 32px (2rem) | Padding in marketing campaign cards |
-| `size/spacing/xl` | 40px (2.5rem) | Intermediate between `lg` and `2xl` |
-| `size/spacing/2xl` | 48px (3rem) | Padding in dialogs on screens wider than 600px |
-| `size/spacing/3xl` | 64px (4rem) | Intermediate between `2xl` and `4xl` |
-| `size/spacing/4xl` | 80px (5rem) | Padding in large landing page sections (e.g. bento grid sections with section headlines) |
-| `size/spacing/5xl` | 96px (6rem) | Extra large section padding |
-| `size/spacing/6xl` | 160px (10rem) | Maximum section padding |
+| `spacing/5xs` | 2px (0.125rem) | Vertical gap between label and sublabel in accordions, list items, checkboxes, radio buttons |
+| `spacing/4xs` | 4px (0.25rem) | Vertical gap between title and description in banners, alert dialogs; vertical gap between text field label, input, and hint |
+| `spacing/3xs` | 8px (0.5rem) | Horizontal gap between icon and label in buttons, chips; horizontal gap between stacked badges or filter chips |
+| `spacing/2xs` | 12px (0.75rem) | Horizontal padding in text fields; vertical padding in list items with large text; vertical gap between stacked large buttons |
+| `spacing/xs` | 16px (1rem) | Padding in banners, snackbars; horizontal padding in small pill chips; horizontal gap between control and label in checkboxes, radio buttons; vertical gap between form text fields |
+| `spacing/sm` | 20px (1.25rem) | Intermediate between `xs` and `md` |
+| `spacing/md` | 24px (1.5rem) | Padding in alert dialogs; horizontal gap between offer tiles in list column layout (screens >1199px) |
+| `spacing/lg` | 32px (2rem) | Padding in marketing campaign cards |
+| `spacing/xl` | 40px (2.5rem) | Intermediate between `lg` and `2xl` |
+| `spacing/2xl` | 48px (3rem) | Padding in dialogs on screens wider than 600px |
+| `spacing/3xl` | 64px (4rem) | Intermediate between `2xl` and `4xl` |
+| `spacing/4xl` | 80px (5rem) | Padding in large landing page sections (e.g. bento grid sections with section headlines) |
+| `spacing/5xl` | 96px (6rem) | Extra large section padding |
+| `spacing/6xl` | 160px (10rem) | Maximum section padding |
 
 ---
 
@@ -474,12 +473,12 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Value | Use |
 |-------|-------|-----|
-| `size/radius/xs` | 4px (0.25rem) | Corner radius of checkbox control |
-| `size/radius/sm` | 8px (0.5rem) | Corner radius of tooltip |
-| `size/radius/md` | 12px (0.75rem) | Corner radius of large buttons, chips, snackbars, text fields |
-| `size/radius/lg` | 16px (1rem) | Corner radius of banners, offer list tiles in offer list, marketing campaign cards |
-| `size/radius/xl` | 24px (1.5rem) | Corner radius of alert dialog, dialog, bottom sheet |
-| `size/radius/pill` | 160px (10rem) | Corner radius of small pill-shaped buttons, chips, badges; corner radius of segmented control |
+| `radius/xs` | 4px (0.25rem) | Corner radius of checkbox control |
+| `radius/sm` | 8px (0.5rem) | Corner radius of tooltip |
+| `radius/md` | 12px (0.75rem) | Corner radius of large buttons, chips, snackbars, text fields |
+| `radius/lg` | 16px (1rem) | Corner radius of banners, offer list tiles in offer list, marketing campaign cards |
+| `radius/xl` | 24px (1.5rem) | Corner radius of alert dialog, dialog, bottom sheet |
+| `radius/pill` | 160px (10rem) | Corner radius of small pill-shaped buttons, chips, badges; corner radius of segmented control |
 
 ---
 
@@ -489,10 +488,10 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Value | Use |
 |-------|-------|-----|
-| `size/stroke/sm` | 1px (0.0625rem) | Default divider in a list; default selectable card stroke; default text field stroke |
-| `size/stroke/md` | 2px (0.125rem) | Default stroke in buttons |
-| `size/stroke/lg` | 3px (0.1875rem) | Default focus ring stroke, also in text fields when typing |
-| `size/stroke/xl` | 4px (0.25rem) | Heavy stroke for emphasized separation between sections |
+| `stroke/sm` | 1px (0.0625rem) | Default divider in a list; default selectable card stroke; default text field stroke |
+| `stroke/md` | 2px (0.125rem) | Default stroke in buttons |
+| `stroke/lg` | 3px (0.1875rem) | Default focus ring stroke, also in text fields when typing |
+| `stroke/xl` | 4px (0.25rem) | Heavy stroke for emphasized separation between sections |
 
 ---
 
@@ -500,9 +499,9 @@ Three text roles: `display`, `title`, and `copy`.
 
 > Background blur effect applied to glass-like cards.
 
-| Token | Figma | Web | Use |
-|-------|-------|-----|-----|
-| `size/blur/glass` | 30px | 15px | Background blur for glass material effects; combine with `colors/glass/*` tokens for frosted glass appearance |
+| Token | Value | Use |
+|-------|-------|-----|
+| `blur/glass` | 30px | Background blur for glass material effects; combine with `colors/glass/*` tokens for frosted glass appearance |
 
 
 ## Shadow tokens
@@ -511,10 +510,9 @@ Three text roles: `display`, `title`, and `copy`.
 
 - Type: `shadow` (composite)
 - Figma representation: Effect styles
-- Format: multi-layer drop shadows
 - Each elevation token uses two shadow layers for depth
 - Shadow values: `offset-x offset-y blur spread color`
-- Color: `rgba(0, 0, 0, opacity)` — black at various opacities
+- Color: `#000000` at various opacities (e.g. 10%, 8%)
 - All shadows use 0 spread radius and 0 horizontal offset
 
 ---
@@ -523,16 +521,16 @@ Three text roles: `display`, `title`, and `copy`.
 
 | Token | Layer 1 | Layer 2 | Use |
 |-------|---------|---------|-----|
-| `elevation/small` | 0 2px 6px 0 rgba(0,0,0,0.10) | 0 1px 4px 0 rgba(0,0,0,0.08) | Subtle elevation for buttons, chips, or floating UI elements that need minimal depth |
-| `elevation/medium` | 0 4px 14px 0 rgba(0,0,0,0.10) | 0 2px 10px 0 rgba(0,0,0,0.08) | Standard elevation for cards, dropdowns, tooltips, or modals that need moderate depth |
-| `elevation/large` | 0 12px 40px 0 rgba(0,0,0,0.10) | 0 8px 32px 0 rgba(0,0,0,0.08) | Heavy elevation for dialogs, drawers, or prominent floating panels that need maximum depth and separation from background |
+| `elevation/small` | 0 2px 6px 0 #000000 at 10% opacity | 0 1px 4px 0 #000000 at 8% opacity | Subtle elevation for buttons, chips, or floating UI elements that need minimal depth |
+| `elevation/medium` | 0 4px 14px 0 #000000 at 10% opacity | 0 2px 10px 0 #000000 at 8% opacity | Standard elevation for cards, dropdowns, tooltips, or modals that need moderate depth |
+| `elevation/large` | 0 12px 40px 0 #000000 at 10% opacity | 0 8px 32px 0 #000000 at 8% opacity | Heavy elevation for dialogs, drawers, or prominent floating panels that need maximum depth and separation from background |
 
 
 ## Breakpoint tokens
 
 ### Metadata
 
-- Type: `number`
+- Type: `dimension`
 - Figma representation: Layout guide styles
 - Layout types:
   - `Stretch`: layout spans full viewport width; uses margin for edge spacing
